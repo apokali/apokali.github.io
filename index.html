@@ -1,135 +1,163 @@
 <!doctype html>
 <html lang="en">
+    
 <head>
     <meta charset="utf-8">
-    <title>homepage</title>
+    <title>Apokali</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index_responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
-    
 </head>
-
+    
 <body>
-    <div class="navigation">
-        <nav class="nav-desk">
-            <img src="logo.png" width=320px height=55px id="logo">
-            <ul >
-                <a href="#"><li><strong>Admission</strong></li></a>
-                <a href="#"><li><strong>Newsltters</strong></li></a>
-                <a href="#"><li><strong>Clubs</strong></li></a>
-                <a href="#"><li><strong>About</strong></li></a>
+    <nav>
+        <div class="nav-wrap">
+            <p1>Apokali</p1>
+            <ul>
+                <li>Resume</li>
+                <div id="nav-dropdown1" class="nav-dropdown">
+                    <li>Program <i class="fa fa-angle-down" style="font-size:20px"></i></li>
+                    <div id="nav-dropdown-contents1" class="nav-dropdown-contents">
+                        <h1 class="nav-dropdown-subhead">Program</h1>
+                        <div class="nav-dropdown-contents-wrap">
+                            <img src="images/uwaterloo.png" width="60%">
+                            <h3>Candidate of Bachelor of Computer Science and Finance</h3>
+                            <p2 class="nav-dropdown-text">This degree combines a deep understanding in <strong>Computer Science</strong> and <strong>Finance</strong> to solve today's technological and finacial problems</p2>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="nav-dropdown2" class="nav-dropdown">
+                    <li>ME! <i class="fa fa-angle-down" style="font-size:20px"></i></li>
+                    <div id="nav-dropdown-contents2" class="nav-dropdown-contents">
+                        <h1 class="nav-dropdown-subhead">ME!</h1>
+                        <div class="nav-dropdown-contents-wrap">
+                            <div class="me-dropdown-contents">
+                                <i class="fa fa-linkedin-square" style="font-size:40px"></i>
+                                <span class="nav-dropdown-text">Xuntian Lin</span>
+                            </div>
+                            <div class="me-dropdown-contents">
+                                <i class="fa fa-facebook-square" style="font-size:40px"></i>
+                                <span class="nav-dropdown-text">Xuntian Lin</span>
+                            </div>
+                            <div class="me-dropdown-contents">
+                                <i class="fa fa-github-square" style="font-size:40px"></i>
+                                <span class="nav-dropdown-text">Apokali</span>
+                            </div>
+                            <div class="me-dropdown-contents">
+                                <i class="fa fa-youtube-square" style="font-size:40px"></i>
+                                <span class="nav-dropdown-text">Apokali</span>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                
             </ul>
-            <i id="burger" class="material-icons" >menu</i>
-            <i id="quit" class="material-icons" >clear</i>
-        </nav>
+        </div>    
+    </nav>
+    
+    <div class="info">
+        <h1>The University Life could be a turning point to ME!.</h1>
+        <img src="images/cover_alt.jpg">
     </div>
-    <div class="contents">
-        <div class="mainhead">
-            <div id="coverwraper">
-                <img src="20.jpeg">
+    
+    <div id="projects" class="major-section" >
+        <h1 class="subhead">Projects</h1>  
+        <div class="proj-wrap">   
+            <div id="proj1" class="proj-each-wrap">
+                <div class="proj-recap">
+                    <h2 class="proj-head">High School Homepage</h2>
+                    <p1 class="proj-text">It is innovatedly designed in all aspects including flex sctructures and responsiveness. Additionally, a simple administration system is established in the meanwhile to control all the articles by using PHP and MySQL.</p1>
+                </div>
+                <img src="images/proj1_alt_.jpg">
             </div>
-            <div class="des">
-                <h>International Division New Webpage</h>
-                <p>Getting around with the new web page here</p>
+            
+            <div  id="proj2" class="proj-each-wrap">
+                <div class="proj-recap">
+                    <h2 class="proj-head">Text Adventures</h2>
+                    <p1 class="proj-text">Use Python to play games! It is a small subset of a text adventure game. This is a World consists of a set of interconnected Rooms containing things. As the Player, you can use Exits to walk from room to room, looking at, picking up, and dropping thigs. </p1>
+                </div>
+                <img src="images/proj2.png">
             </div>
+
+            <div id="proj3" class="proj-each-wrap">
+                <div class="proj-recap">
+                    <h2 class="proj-head">Short Movie Competition</h2>
+                    <p1 class="proj-text">Videos editing could be so much fun, Premiere Pro is really not that difficult. Combined with After Effects and Audition, some special effets are done easily and soundtracks are adjusted just like a second. Besides, this video also won the first prize in a Short Movie Competition.</p1>
+                </div>
+                <img src="images/proj3.jpg">
+            </div>
+        
         </div>
-        <div id="intro-1">
-            <h>The International Division has been developed for five years in order to best fit the students' needs wishing to start their universities abroad.</h>
-        </div>
-        <div class="popular">
-            <div id="sec-1">
-                <img src="ss.png">
-                <div class="caption">
-                    <h>Graduation Moment</h>
-                    <p>Take a look of your memories bringing you back to that time.</p>
-                </div>
-            </div>
-            <div id="sec-2">
-                <img src="teachers.jpeg">
-                <div class="caption">
-                    <h>Greatest Teachers</h>
-                    <p>Go to see our powerful teacher teams in school.</p>
-                </div>
-            </div>
-            <div id="sec-3">
-                <img src="7.JPG">
-                <div class="caption">
-                    <h>High School Lives</h>
-                    <p>The cozy atmosphere at school provides much more opportunities.</p>
-                </div>
-            </div>
-        </div>
-        <div class="admission">
-            <div id="admin-0">
-                <img src="admi.jpeg">
-                <h>High School Curriculums</h>
-            </div>
-            <div class="admin-info">
-                <h>With the Edexcel Advanced Level Qualification, students will gain enough konwledge before colleges and universities.</h>
-                <div id="admin-1">
-                    <img src="eng.jpg">
-                    <div class="admin-des">
-                        <h1>English Tests</h1>
-                        <p>IELTS trainings for most of the English-speaking countries with overall band at least 6.5</p>
-                    </div>
-                </div>
-                <div id="admin-2">
-                    <div class="admin-des">
-                        <h1>A-Level Courses</h1>
-                        <p>A-Level courses including Pure Mathematics, Further Pure Mathematics, Physics and Chemistry</p>
-                    </div>
-                    <img src="10.jpg">
-                </div>
-            </div>
-        </div>
-        <div class="news">
-            <div class="new-sec">
-                <div id="new-sec-1">
-                    <img src="yy.png">
-                    <div class="above-pic">
-                        <h1>Short Movie Competition</h1>
-                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
-                    </div>
-                </div>
-                <div id="new-sec-1">
-                    <img src="1.jpg">
-                    <div class="above-pic">
-                        <h1>Charity Bazaar Moment</h1>
-                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
-                    </div>
-                </div>
-                <div id="new-sec-1">
-                    <img src="123.jpg">
-                    <div class="above-pic">
-                        <h1>Experimental Avtivities Revisit</h1>
-                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
-                    </div>
-                </div>
+    </div>
+    
+    <div class="major-section" id="experiences">
+        <h1 class="subhead" style="color: white">Experiences</h1>
+        <div class="experience-wrap">
+            <div id="experience1" class="experience-each-wrap">
+                <img src="images/experience1.png">
+                <div class="experience-text">
+                    <h2>Teaching Assistant</h2>
+                    <p2>Education International Cooperation Group (EIC)</p2>
                     
                 </div>
             </div>
-        <form action="#">
-            <input type="text">
-            <input type="submit" value="submit">
-            <input type="checkbox">
-            <input type="password">
-            <input type="email">
-        </form>
+            
+            <div id="experience2" class="experience-each-wrap">
+                <img src="images/experience2.png">
+                <div class="experience-text">
+                    <h2>Orientation Volunteer</h2>
+                    <p2>Waterloo Undergraduate Student Association (WUSA) -
+                    University of Waterloo</p2>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer">
-        <footer>
-            2019 All Rights Reserved
-        </footer>
-    </div>
-    <script>
-        $(document).ready(function() {
-            $(".nav-desk #burger").click(function() {
-                $(".nav-desk ul").toggleClass("links");
-            });
-        });
-    </script>
     
-    </body>
+    <div class="major-section" id="media">
+        <h1 class="subhead">Media</h1>
+        <div class="media-wrap">
+            <div id="media1" class="media-each-wrap">
+                <div class="media-video">
+                    <iframe src="//player.bilibili.com/player.html?aid=8846379&cid=14594193&page=1"  border="0" frameborder="no"  allowfullscreen="true"> </iframe>
+<!--                <iframe width="560" height="315" src="https://www.youtube.com/embed/hPnp2UP3ZDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                </div>
+                <div class="media-text">
+                        <div id="media1-text-info">
+                            <h2>Our Beautiful Youth</h2>
+                            <p1>Author Apokali</p1><br>
+                            <p1>Released Feb 26 2017</p1>
+                        </div>
+                        <div id="media1-text-additional">
+                            <h3>This video won the first prize in the 2017 International Division of Hubei Wuchang Experimental High School Short Movie Competition.</h3>
+                            
+                            <p1><i>It was an unforgettable time shooting this video with all of my best friends and planning how each scene appeared at different places around the high school. With the additional assistance from my favoutite teachers, I can finally produce the eventual video much time ahead the deadline of submission.</i></p1>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <footer>
+        <p>2019 Apokali</p>
+    </footer>
+    
+    
+    
+    
+    
+    
+</body>
+
 </html>

@@ -1,0 +1,192 @@
+@media screen and (max-width: 1024px) {
+    .nav-wrap {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    /*subhead*/
+    .subhead, .proj-wrap, .experience-wrap,.media-each-wrap {
+        width: 960px;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .subhead, .proj-wrap, .experience-wrap,.media-each-wrap {
+        width: 780px;
+    }
+    
+    /*subhead*/
+    .subhead {
+        font-size: 2.2em;
+    }
+    
+    .proj-each-wrap {
+        margin-bottom: 30px;
+    }
+    
+    .proj-each-wrap img {
+        height: 250px;
+    }
+    
+    .proj-recap {
+        height: 300px;
+        font-size: 1.2em;
+    }
+    
+    .proj-recap h2 {
+        line-height: 45px;
+        font-size: 1.3em;
+    }
+    
+    .proj-recap p1 {
+        line-height: 27px;
+    }
+    
+    /*media*/
+    
+    .media-each-wrap {
+        flex-direction: column;
+    }
+    
+    .media-video {
+        width: 100%;
+    }
+    
+    .media-text {
+        margin: 2% 0;
+        width: 100%;
+    }
+    
+    #media1-text-additional{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    
+    .media-text h3 {
+        padding: 20px 10px;
+    }
+    
+    #media1-text-additional p1 {
+        padding: 20px 10px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 820px) {
+    .info img {
+        height: 350px;
+    }
+    
+    .info h1 {
+        font-size: 1.7em;
+    }
+    
+    .subhead, .proj-wrap, .experience-wrap,.media-each-wrap {
+        width: 650px;
+    }
+    
+    .proj-recap {
+        height: 350px;
+    }
+    
+    .proj-each-wrap img {
+        height: 240px;
+    }
+    
+    .media-video iframe {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    /*nav*/
+    nav p1 {
+        font-size: 1.6em;
+    }
+    
+    nav ul li {
+        font-size: 1em;
+    }
+    
+    
+    
+    
+    .info {
+        flex-direction: column-reverse;
+    }
+    
+    .info img{
+        width: 100%;
+        
+    }
+    
+    .info h1{
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+    }
+    
+    .subhead {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .proj-wrap {
+        width: 100%;
+    }
+    
+    .proj-each-wrap {
+        flex-direction: column;
+    }
+    
+    .proj-each-wrap img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding: 15px;
+        
+    }
+    
+    .proj-recap {
+        border-right: none;
+        padding: 15px;
+        height: auto;
+    }
+    
+    .experience-wrap {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    #experience1 {
+        margin: 0;
+    }
+    
+    .experience-each-wrap {
+        width: 100%;
+        margin: 15px;
+    }
+    
+    
+    .media-each-wrap {
+        max-width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .media-wrap iframe {
+        height: 300px;
+    }
+    
+    #media1-text-additional {
+        flex-direction: column;
+    }
+
+    
+}
