@@ -133,10 +133,12 @@ nav ul li:hover{
     
 }
 
-.me-dropdown-contents:hover {
+.me-dropdown-contents:hover  {
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: azure;
 }
+
+
 
 /*this is the stylesheets for the body expect for the nav*/
 
