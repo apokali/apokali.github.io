@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*DESK-anchor  stylesheet starts here*/
+
+.desk-anchor #logo{
+    width: 350px;
+    height: 60px;
+    float: left;
+    margin: 12px 20px;
+}
+
+
+.desk-anchor{
+    width: 100%;
+    border-bottom: 2px solid rgba(12,109,97,1.0);
+    
+}
+
+.desk-anchor ul{
+    float: right;
+}
+
+.desk-anchor ul li{
+    list-style: none;
+    padding: 28px 10px;
+    transition: 0.5s;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.desk-anchor ul li a{
+    text-decoration: none;
+    color: rgba(12,109,97,1.0);
+}
+
+.desk-anchor ul li:hover{
+    background-color: aqua;
+}
+
+/*MOBILE-anchor  stylesheet starts here*/
+.mobile-anchor {
+    width: 100%;
+    border-bottom: 2px solid rgba(12,109,97,1.0);
+    display: none;
+    
+}
+
+.mobile-anchor #logo{
+    width: 260px;
+    height: 45px;
+    float: left;
+    margin: 10px 20px;
+}
+
+.mobile-anchor #button{
+    width: 60px;
+    float: right;
+}
+
+/* here starts the mobile anchor media*/
+@media screen and (max-width: 990px) {
+    .desk-anchor{
+        display: none;
+    }
+    
+    .mobile-anchor{
+        display: block;
+    }
+    
+    .desk-anchor #logo{
+        display: block;
+        float: none;
+    }
+    
+    .desk-anchor ul {
+        float: none;
+    }
+    
+    .desk-anchor ul li{
+        display: block;
+        text-align: center;
+    }
+    
+    .desk-anchor #logo {
+        display: none;
+    }
+    
+    

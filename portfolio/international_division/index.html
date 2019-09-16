@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="nav-desk">
+            <img src="logo.png" width=320px height=55px id="logo">
+            <ul >
+                <a href="#"><li><strong>Admission</strong></li></a>
+                <a href="#"><li><strong>Newsltters</strong></li></a>
+                <a href="#"><li><strong>Clubs</strong></li></a>
+                <a href="#"><li><strong>About</strong></li></a>
+            </ul>
+            <i id="burger" class="material-icons" >menu</i>
+            <i id="quit" class="material-icons" >clear</i>
+        </nav>
+    </div>
+    <div class="contents">
+        <div class="mainhead">
+            <div id="coverwraper">
+                <img src="20.jpeg">
+            </div>
+            <div class="des">
+                <h>International Division New Webpage</h>
+                <p>Getting around with the new web page here</p>
+            </div>
+        </div>
+        <div id="intro-1">
+            <h>The International Division has been developed for five years in order to best fit the students' needs wishing to start their universities abroad.</h>
+        </div>
+        <div class="popular">
+            <div id="sec-1">
+                <img src="ss.png">
+                <div class="caption">
+                    <h>Graduation Moment</h>
+                    <p>Take a look of your memories bringing you back to that time.</p>
+                </div>
+            </div>
+            <div id="sec-2">
+                <img src="teachers.jpeg">
+                <div class="caption">
+                    <h>Greatest Teachers</h>
+                    <p>Go to see our powerful teacher teams in school.</p>
+                </div>
+            </div>
+            <div id="sec-3">
+                <img src="7.JPG">
+                <div class="caption">
+                    <h>High School Lives</h>
+                    <p>The cozy atmosphere at school provides much more opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="admission">
+            <div id="admin-0">
+                <img src="admi.jpeg">
+                <h>High School Curriculums</h>
+            </div>
+            <div class="admin-info">
+                <h>With the Edexcel Advanced Level Qualification, students will gain enough konwledge before colleges and universities.</h>
+                <div id="admin-1">
+                    <img src="eng.jpg">
+                    <div class="admin-des">
+                        <h1>English Tests</h1>
+                        <p>IELTS trainings for most of the English-speaking countries with overall band at least 6.5</p>
+                    </div>
+                </div>
+                <div id="admin-2">
+                    <div class="admin-des">
+                        <h1>A-Level Courses</h1>
+                        <p>A-Level courses including Pure Mathematics, Further Pure Mathematics, Physics and Chemistry</p>
+                    </div>
+                    <img src="10.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="new-sec">
+                <div id="new-sec-1">
+                    <img src="yy.png">
+                    <div class="above-pic">
+                        <h1>Short Movie Competition</h1>
+                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
+                    </div>
+                </div>
+                <div id="new-sec-1">
+                    <img src="1.jpg">
+                    <div class="above-pic">
+                        <h1>Charity Bazaar Moment</h1>
+                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
+                    </div>
+                </div>
+                <div id="new-sec-1">
+                    <img src="123.JPG">
+                    <div class="above-pic">
+                        <h1>Experimental Avtivities Revisit</h1>
+                        <p>Click see the lastest report from the Student Union and vote for the candidate team that might win this competition.</p>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        <form action="#">
+            <input type="text">
+            <input type="submit" value="submit">
+            <input type="checkbox">
+            <input type="password">
+            <input type="email">
+        </form>
+    </div>
+    <div class="footer">
+        <footer>
+            2019 All Rights Reserved
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(".nav-desk #burger").click(function() {
+                $(".nav-desk ul").toggleClass("links");
+            });
+        });
+    </script>
+    
+    </body>
+</html>
